@@ -1,0 +1,28 @@
+{
+  "name": "@wongchisum/react-flow-components",
+  "version": "0.0.2",
+  "main": "index.js",
+  "author": "zhisen.wang <im.wongch1sum@gmail.com>",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "cleanup": "npx rimraf ./dist",
+    "build": "yarn cleanup && tsup --config ./tsup.prod.ts",
+    "serve": "cd ./examples && yarn dev"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "rimraf": "^3.0.2",
+    "serve": "^13.0.2",
+    "tsup": "^6.1.0",
+    "typescript": "^4.7.3"
+  },
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}

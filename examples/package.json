@@ -1,0 +1,17 @@
+{
+  "name": "@wongchisum/examples",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "zhisen.wang",
+  "scripts": {
+    "dev": "parcel ./index.html --no-cache"
+  },
+  "alias": {
+    "react": "../node_modules/react",
+    "react-dom": "../node_modules/react-dom"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
+}
